@@ -1,6 +1,6 @@
 <br class="clear" />
 <div id="footer">
-	<?php esc_html_e('Designed by ','SimplePress'); ?> <a href="http://www.elegantthemes.com" title="Elegant Themes">Elegant Themes</a> | <?php esc_html_e('Powered by ','SimplePress'); ?> <a href="http://www.wordpress.org">Wordpress</a>
+	<?php esc_html_e('Direitos reservados','SimplePress'); ?> <a href="http://www.acens.com.br" title="Acens"><img id="logoAcens" src="<?php bloginfo('template_url'); ?> /images/Logos/Acens.png"/></a>
 </div>
 <?php wp_footer(); ?>	
 <?php get_template_part('includes/scripts'); ?>
