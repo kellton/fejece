@@ -60,10 +60,10 @@ h3 { font-size: 24px; color: #000; }
 	background-image: url(images/nav-bg.png);
 	text-align: left; position: relative;
 	z-index: 14;
-	border-bottom-left-radius:50px;
-  	border-bottom-right-radius:50px;
- 	border-top-left-radius:0;
-	border-top-right-radius:0;
+	border-bottom-left-radius:0px;
+  	border-bottom-right-radius:0px;
+ 	border-top-left-radius:0px;
+	border-top-right-radius:0px;
 
 	}
 	.nav-shadow { position: absolute; top: 40px; left: 50px; width: 866px; height: 4px; background-image: url(images/nav-shadow.png);}
