@@ -60,15 +60,15 @@ h3 { font-size: 24px; color: #000; }
 	background-image: url(images/nav-bg.png);
 	text-align: left; position: relative;
 	z-index: 14;
-	border-bottom-left-radius:0px;
-  	border-bottom-right-radius:0px;
- 	border-top-left-radius:0px;
-	border-top-right-radius:0px;
+	border-bottom-left-radius:50px;
+  	border-bottom-right-radius:50px;
+ 	border-top-left-radius:50px;
+	border-top-right-radius:50px;
 
 	}
 	.nav-shadow { position: absolute; top: 40px; left: 50px; width: 866px; height: 4px; background-image: url(images/nav-shadow.png);}
-	.nav_top { background-image: url(images/nav-top.png); width: 960px; height: 1px; display: block; float: left; }
-	.nav_bottom { background-image: url(images/nav-bottom.png); width: 960px; height: 1px; display: block; float: left;  }
+	.nav_top {/* background-image: url(images/nav-top.png); */ width: 960px; height: 1px; display: block; float: left; }
+	.nav_bottom {/* background-image: url(images/nav-bottom.png); */ width: 960px; height: 1px; display: block; float: left;  }
 	.nav { padding: 10px 0; float: left; }
 		.nav li { float: left; padding: 0 10px; list-style-type: none;  position: relative;}
 		.nav li.current_page_item a, .nav li.current-menu-item a, .nav li.current-category-ancestor a, .nav li.current_page_ancestor a, .nav li.current-post-parent a { font-style: italic; color: #989898;}
@@ -97,7 +97,7 @@ h3 { font-size: 24px; color: #000; }
 /*------------------------------------------------*/
 /*----------------[FEATURED SLIDER]---------------*/
 /*------------------------------------------------*/
-#featured {/* margin-top: 23px; */}
+#featured { margin-top: 23px; }
 	#featured #slides, #featured ul.slides { background-color: #e5e5e5; border-bottom: 1px solid #fff; padding: 3px; }
 	#featured #slides { width: 954px; height: 375px; }
 		#slides .slide { position: relative; }
@@ -132,7 +132,7 @@ h3 { font-size: 24px; color: #000; }
 .blurbs_shadow { width: 960px; background-image: url(images/blurbs-shadow.png); height: 8px; display: block; }
 #footer { width: 960px; margin: 10px auto 40px auto; text-align: right; text-shadow: 1px 1px 0px #fff; color: #919191; font-size: 11px; font-style: italic; }
 	#footer a { color: #5e5b5b;}
-#content { background-image: url(images/content-bg.png); float: left; text-shadow: 1px 1px 0px #fff; margin-bottom: 30px; }
+#content { background-image: url(images/content-bg.png); float: left; text-shadow: 1px 1px 0px #fff; margin-bottom: 30px; margin-top: 23px;}/*coloquei o margin-top*/
 	#content .content_wrap { background: url(images/content-bg-top.jpg) no-repeat top; float: left; }
 	#content .full, .full, #content .full .full { background-image: none; }
 		#content .content_wrap .content_wrap { background: url(images/content-bg-bottom.jpg) no-repeat bottom; float: left; padding-top: 20px; }
@@ -151,7 +151,7 @@ h3 { font-size: 24px; color: #000; }
 	#search-bar { float: left; }
 		#search-bar #searchinput {background: url(images/search-bg.png) no-repeat; width: 175px; height: 35px; border: none; float: left; padding-left: 10px; padding-right: 10px; }
 		#search-bar #searchsubmit { }
-#posts { float: left; width: 640px; padding-right: 40px; }
+#posts { float: left; width: 640px; padding-right: 40px; margin-left: 30px;}/*coloquei o margin-left*/
 #posts_full { width: 960px; }
 	#posts_full .post_full { width: 960px; }
 	#posts .post { float: left; margin-bottom: 40px; }
