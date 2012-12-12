@@ -50,22 +50,12 @@ a, a:hover { text-decoration: none; color: #000; }
 	#logo { border: none; margin: 10px auto 10px 0px; clear: both; }
 h1, h2 { font-size: 34px; color: #000; }
 h3 { font-size: 24px; color: #000; }
-#posts p, .post_full p {padding-top: 15px;}
+#posts p, .post_full p { padding-top: 15px; font-size: 13px; }
 	
 /*------------------------------------------------*/
 /*---------------[NAVIGATION MENU]----------------*/
 /*------------------------------------------------*/
-#navwrap {
-	width: 960px; 
-	background-image: url(images/nav-bg.png);
-	text-align: left; position: relative;
-	z-index: 14;
-	border-bottom-left-radius:50px;
-  	border-bottom-right-radius:50px;
- 	border-top-left-radius:50px;
-	border-top-right-radius:50px;
-
-	}
+#navwrap { width: 960px; background-image: url(images/nav-bg.png); text-align: left; position: relative; z-index: 14; border-radius: 15px; }
 	.nav-shadow { position: absolute; top: 40px; left: 50px; width: 866px; height: 4px; background-image: url(images/nav-shadow.png);}
 	.nav_top {/* background-image: url(images/nav-top.png); */ width: 960px; height: 1px; display: block; float: left; }
 	.nav_bottom {/* background-image: url(images/nav-bottom.png); */ width: 960px; height: 1px; display: block; float: left;  }
@@ -314,3 +304,5 @@ h2, h3, #quote div span, .hover span, .fn { text-shadow: 1px 1px 0px #fff; }
 .flexslider .slide .banner { top: 90px; }
 
 .et-box-content p { padding-bottom: 15px; padding-top: 0; }
+input[type="text"] { border-radius: 2px; font-size: 15px; }
+input[type="submit"] { border-radius: 5px; font-size: 15px; }
