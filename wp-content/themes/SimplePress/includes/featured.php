@@ -5,8 +5,8 @@
 	if ( 'on' == get_option('simplepress_slider_auto') ) $featured_auto_class .= ' et_slider_auto et_slider_speed_' . get_option('simplepress_slider_autospeed');
 	$i=1;
 	
-	$width = 954;
-	$height = 250;
+	$width = 800;
+	$height = 275;
 	$width_small = 83;
 	$height_small = 83;
 			
